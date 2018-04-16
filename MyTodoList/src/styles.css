@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  background: linear-gradient(to right, rgba(73,51,96,1), rgba(73,51,96,0.5));
+  margin: 0;
+  padding: 3em;
+  height: 100%;
+  font-family: Open Sans;
+  
+}
+
+ul {
+  list-style: none;
+  margin:0 0 2em 0;
+  padding: 0;
+}
+ul li {
+  display: inline;
+  margin-right: 3em;
+}
+ul li a {
+  font-size: 1.5em;
+}
+a {
+  color:whitesmoke;
+  cursor: pointer;
+}

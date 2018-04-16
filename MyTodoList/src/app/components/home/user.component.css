@@ -1,0 +1,53 @@
+/*.main {*/
+
+  /*background: linear-gradient(to right, rgba(73,51,96,1), rgba(73,51,96,0));*/
+
+/*}*/
+
+
+.container {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+.col {
+  padding: .4em 1.3em;
+}
+
+input  {
+  border: 0;
+  padding: 0.5em;
+  width:80%;
+  margin-bottom: 2em;
+}
+
+input .btn{
+  border:0;
+  display: block;
+  padding:1em 3em;
+  backgroundd:yellow;
+  color:whitesmoke;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.btn{
+  padding: 8px;
+  border-radius: 4px;
+  background-color: darkseagreen;
+  cursor: pointer;
+  width: 20%;
+  
+}
+
+.items li {
+display: block;
+}
+
+.specitem {
+  background: #b6adbf;
+  padding: 0.5em;
+  font-weight: bold;
+  margin-bottom: 4px;
+  
+}

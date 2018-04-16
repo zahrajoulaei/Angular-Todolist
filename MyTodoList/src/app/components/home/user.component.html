@@ -1,0 +1,22 @@
+
+      <h1>{{ name }}</h1>
+      
+<div class="container" [@goals]="goals.length">
+  <div class="col" >
+    <h4>Add to your list</h4>
+    <p>use the form below to add a new goal to your list</p>
+    <form>
+      <input  type="text" name="item" placeholder="add a new goal" [(ngModel)]="goalText">
+      <input (click)="addItem()" type="submit" class="btn" [value]=btnText>      <!--Htaman dar daftaram beenvisam!!! property binding be in soorate!
+      agar property binding nbud bayad in shekli mineveshtimesh : value="{{btnText}}"-->
+    </form>
+    
+    
+    <p>number of your goals:{{itemCount}}</p>
+    <ul class="items">
+      <li class="specitem" *ngFor= "let goal of goals; let i=index">{{i+1}}:{{goal}}
+        <button (click)="deletegoal(i)">X</button>
+      </li>
+    </ul>
+  </div>
+</div>
